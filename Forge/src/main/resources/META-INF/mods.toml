@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[40,)"
+loaderVersion = "[41,)"
 license = "${mod_license}"
 issueTrackerURL = "${mod_issues}"
 
@@ -11,6 +11,7 @@ displayName = "${mod_name}"
 displayURL = "${mod_homepage}"
 credits = "This project is made possible with Patreon support from players like you. Thank you! ${mod_supporters}"
 authors = "${mod_author}"
+displayTest="IGNORE_SERVER_VERSION"
 description = '''
 ${mod_description}
 '''
