@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.darkhax.whatthebucket.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "item.AccessorItem"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "${mixin_refmap}"
+}
