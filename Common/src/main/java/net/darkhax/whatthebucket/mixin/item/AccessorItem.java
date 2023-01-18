@@ -10,5 +10,5 @@ public interface AccessorItem {
 
     @Mutable
     @Accessor("craftingRemainingItem")
-    void bookshelf$setCraftingRemainder(Item item);
+    void whatthebucket$setCraftingRemainder(Item item);
 }

@@ -21,7 +21,7 @@ public final class MC151457 {
 
         if (!target.hasCraftingRemainingItem()) {
 
-            ((AccessorItem) target).bookshelf$setCraftingRemainder(Items.BUCKET);
+            ((AccessorItem) target).whatthebucket$setCraftingRemainder(Items.BUCKET);
         }
     }
 }
