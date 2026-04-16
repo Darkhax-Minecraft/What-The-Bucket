@@ -1,0 +1,23 @@
+{
+  "mod": {
+    "name": "WhatTheBucket",
+    "group": "net.darkhax.whatthebucket",
+    "authors": [
+      "Darkhax"
+    ],
+    "id": "whatthebucket",
+    "license": "LGPL 2.1",
+    "description": "Fixes MC-151457 which resulted in some bucket variants not producing an empty bucket when used as an ingredient.",
+    "repo": "https://github.com/Darkhax-Minecraft/What-The-Bucket",
+    "client": false
+  },
+  "dependencies": [],
+  "curseforge": {
+    "slug": "what-the-bucket",
+    "id": "633747"
+  },
+  "modrinth": {
+    "slug": "what-the-bucket",
+    "id": "zUxYvzMP"
+  }
+}

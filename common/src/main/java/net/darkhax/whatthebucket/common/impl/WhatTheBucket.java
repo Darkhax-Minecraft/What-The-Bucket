@@ -2,6 +2,7 @@ package net.darkhax.whatthebucket.common.impl;
 
 import net.darkhax.whatthebucket.common.mixin.AccessorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStackTemplate;
 import net.minecraft.world.item.Items;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,8 +24,8 @@ public class WhatTheBucket {
     }
 
     private static void setCraftingRemainderIfNull(Item target) {
-        if (!target.hasCraftingRemainingItem()) {
-            ((AccessorItem) target).whatthebucket$setCraftingRemainder(Items.BUCKET);
+        if (target.getCraftingRemainder() == null) {
+            ((AccessorItem) target).whatthebucket$setCraftingRemainder(new ItemStackTemplate(Items.BUCKET));
         }
     }
 }
